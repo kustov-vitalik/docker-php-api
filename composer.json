@@ -1,0 +1,26 @@
+{
+    "name": "kustov-vitalik/docker-php-api",
+    "license": "MIT",
+    "type": "library",
+    "description": "Docker API generated files from OpenAPI Specification",
+    "autoload": {
+        "psr-4": {
+            "Docker\\API\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "jane-php/open-api-runtime": "^7.1"
+    },
+    "require-dev": {
+        "jane-php/open-api-2": "^7.1",
+        "friendsofphp/php-cs-fixer": "^3.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "4.1.41": "4.1.41.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
